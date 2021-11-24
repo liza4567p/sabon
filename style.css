@@ -1,0 +1,159 @@
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+.container{
+  width: 1140px;
+  margin: auto;
+}
+.header-upper{
+  background-color: #FAF9F9;
+  padding: 4px 0;
+}
+li{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #333333;
+}
+.sale{
+  color: #E93232;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+.language{
+  display: flex;
+  gap: 4px;
+}
+.language p{
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0;
+}
+.no-active{
+  line-height: 16px;
+  color: #999999;
+}
+.active{
+  line-height: 16px;
+  color: #333333;
+}
+.login{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.header-upper-right{
+  display: flex;
+  gap:40px;
+  align-items: center;
+}
+.header-upper-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-middle{
+  margin-top: 16px;
+}
+.header-middle-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+}
+.button-sale{
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #DD1F86;
+  border: 2px solid #DD1F86;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 9px 29px;
+}
+.input-style{
+  width: 308px;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 13px 12px;
+  display: flex;
+  justify-content: space-between;
+}
+input{
+  outline: none;
+  border: none;
+
+}
+.telephone{
+  display: flex;
+  align-items: center;
+  gap:11px;
+  justify-content: space-between;
+}
+.telephone img{
+  width: 22px;
+  height: 20.54px;
+}
+.text-phone{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #333333;
+}
+.icon{
+  display: flex;
+  gap:16px;
+}
+.icon-container{
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.counter{
+  color: white;
+  font-size: 10px;
+  line-height: 8px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: #00AE70;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+.line{
+  background: #E6E6E6;
+  height: 1px;
+  width: 100%;
+  margin-top: 16px;
+}
+.button-catalog{
+  background: #00AE70;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  width: 210px;
+  display: flex;
+  align-items: center;
+}
